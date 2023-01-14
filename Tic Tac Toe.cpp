@@ -229,7 +229,6 @@ int main()
         TCHAR choice;
         _tprintf(_T("Do you want to start first?(y/n) : "));
         cin>>choice;
-       // cin>>choice;
         if(choice=='n')
             playTicTacToe(COMPUTER);
         else if(choice=='y')
